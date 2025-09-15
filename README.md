@@ -32,7 +32,7 @@ Type n (for new remote) and press Enter.
 
 Enter a name for your remote (e.g., gdrive or mygdrive) and press Enter.
 
-You will see a list of storage types. Select Google Drive (usually option 12, but check the list).
+You will see a list of storage types. Select Google Drive (usually option 22, but check the list).
 
 Confirm the remote name and storage type.
 
