@@ -1,10 +1,12 @@
 # Rclone Setup on Termux with Google Drive
 
+
 This guide explains how to install and configure **Rclone** on Termux to connect your Android device with **Google Drive**.
 
 ---
 
 ## Prerequisites
+
 - An Android device with **Termux** installed  
 - A **Google account** with access to Google Drive  
 - Internet connection  
