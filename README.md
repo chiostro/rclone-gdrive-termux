@@ -16,12 +16,15 @@ This guide explains how to install and configure **Rclone** on Termux to connect
 Install Rclone by running:
 ```bash
 pkg install rclone
+```
 Configuration
 Start the configuration process with:
-
-bash
-Copia codice
+```bash
 rclone config
+```
+
+
+
 Steps to configure:
 Create a new remote
 
@@ -68,13 +71,21 @@ You can start using it with Rclone commands, for example:
 bash
 Copia codice
 ### List files on your remote Google Drive
+
+```bash
 rclone ls gdrive:
+```
 
 ### Copy a file from Termux to Google Drive
-rclone copy /sdcard/myfile.txt gdrive:/backup/
+```bash
+rclone copy /sdcard/myfile.txt gdrive:
+```
 
 ### Sync a folder from Termux to Google Drive
+```bash
 rclone sync /sdcard/Documents gdrive:/DocumentsBackup
+```
+
 Notes
 Replace gdrive with the name you chose for your remote.
 
