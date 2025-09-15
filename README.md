@@ -68,8 +68,6 @@ Finally, you will be asked whether to confirm the remote configuration. Type q (
 Now your Google Drive remote is configured and ready.
 You can start using it with Rclone commands, for example:
 
-bash
-Copia codice
 ### List files on your remote Google Drive
 
 ```bash
